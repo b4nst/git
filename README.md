@@ -5,5 +5,5 @@ Docker alpine image with git. A credential helper is preconfigured to retrieve u
 ## Usage
 
 ```shell
-docker run --env GIT_USER=my-user GIT_PASSWORD=super-secret-token banst/git clone https://github.com/my-user/private-repo.git
+docker run --env GIT_USER=my-user --env GIT_PASSWORD=super-secret-token banst/git clone https://github.com/my-user/private-repo.git
 ```
